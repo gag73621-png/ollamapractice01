@@ -20,7 +20,7 @@ llm = ChatOpenAI(
 embedding_model = OpenAIEmbeddings(
  base_url="https://genailab.tcs.in",
  model="azure/genailab-maas-text-embedding-3-large",
- api_key="sk-EIrYwr8xGAAzDRPbj-IN7w",
+ api_key="your api key",
  http_client=client)
 st.set_page_config(page_title="RAG PDF Summarizer")
 st.title(" RAG-powered PDF Summarizer")
